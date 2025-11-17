@@ -1,8 +1,16 @@
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Options;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
+
+var myPostgresConnection = builder.Configuration.GetConnectionString("DefaultConnection");
+
+builder.Services.AddDbContext<StockService.Infrastructure.Data.StockServiceContext>(Options =>
+        Options.UseNpgsql(myPostgresConnection));
 
 var app = builder.Build();
 
