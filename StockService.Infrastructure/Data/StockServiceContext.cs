@@ -13,7 +13,7 @@ namespace StockService.Infrastructure.Data
             
         }
         
-        DbSet<StockService.Domain.Entities.Product> Products { get; set; }
+        public DbSet<StockService.Domain.Entities.Product> Products { get; set; }
         
     }
 }
