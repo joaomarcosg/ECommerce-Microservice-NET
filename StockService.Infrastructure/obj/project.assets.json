@@ -264,6 +264,16 @@
             "related": ".xml"
           }
         }
+      },
+      "StockService.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/StockService.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/StockService.Domain.dll": {}
+        }
       }
     }
   },
@@ -677,11 +687,17 @@
         "npgsql.entityframeworkcore.postgresql.nuspec",
         "postgresql.png"
       ]
+    },
+    "StockService.Domain/1.0.0": {
+      "type": "project",
+      "path": "../StockService.Domain/StockService.Domain.csproj",
+      "msbuildProject": "../StockService.Domain/StockService.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net9.0": [
-      "Npgsql.EntityFrameworkCore.PostgreSQL >= 9.0.4"
+      "Npgsql.EntityFrameworkCore.PostgreSQL >= 9.0.4",
+      "StockService.Domain >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -715,7 +731,11 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\BAHIA\\Desktop\\Projetos-dev\\ECommerce.Microservices\\StockService.Domain\\StockService.Domain.csproj": {
+              "projectPath": "C:\\Users\\BAHIA\\Desktop\\Projetos-dev\\ECommerce.Microservices\\StockService.Domain\\StockService.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
