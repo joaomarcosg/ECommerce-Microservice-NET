@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Shared.Auth")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+37dffb79ca290f460fed42dfad49a971dc469328")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ecfaf02cefc297db6317643a52dfd48b6830619c")]
 [assembly: System.Reflection.AssemblyProductAttribute("Shared.Auth")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Shared.Auth")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
