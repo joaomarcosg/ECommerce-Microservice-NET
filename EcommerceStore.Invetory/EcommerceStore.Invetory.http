@@ -1,6 +1,0 @@
-@EcommerceStore.Invetory_HostAddress = http://localhost:5087
-
-GET {{EcommerceStore.Invetory_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
